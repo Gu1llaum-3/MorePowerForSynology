@@ -4,20 +4,25 @@
 # Date........: 24/04/2022
 # Version.....: 0.1
 #####################################################
+clear
 echo "Mise à jour des paquets..."
+echo " "
 sleep 2
 sudo apt update
 clear
 echo "Installation du paquet nfs-common"
+echo " "
 sleep 2
 sudo apt install -y nfs-common || echo "Echec de l'installation de nfs-common"
 sleep 2
 clear
 echo "Installation de docker et docker-compose"
+echo " "
 sleep 2
 sudo apt install -y docker docker-compose || echo "Echec de l'installation de docker et docker-compose"
 clear
 echo "Test de l'installation de docker"
+echo " "
 sleep 2
 sudo docker run hello-world || echo "Docker ne fonctionne pas correctement"
 sleep 2
@@ -33,4 +38,5 @@ sudo mount -t nfs $x:$y /mnt/NAS
 sudo echo "$x:$y /mnt/NAS nfs defaults,auto 0 0" >> /etc/fstab
 clear
 echo "Liste des dossiers :"
+echo " "
 ls /mnt/NAS
