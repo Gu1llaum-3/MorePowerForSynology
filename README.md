@@ -1,6 +1,6 @@
 # More Power For Synology
 
-> Le but de cette procédure est d'utiliser la puissance d'un autre ordinateur pour nos services à la place d'un NAS Synology n'ayant pas assez de puissance ou ne pouvant utiliser docker.
+> Le but de ce script est d'utiliser la puissance d'un autre ordinateur pour nos services à la place d'un NAS Synology n'ayant pas assez de puissance ou ne pouvant utiliser docker.
 
 ## Pré requis
 
@@ -46,7 +46,7 @@ C'est fini du côté du NAS, place au serveur
 ## Installation
 Pour lancer l'installation :
 ```bash
-git clone 
+git clone https://github.com/Gu1llaum-3/MorePowerForSynology.git
 cd MorePowerForSynology
 sudo install.sh
 ```
