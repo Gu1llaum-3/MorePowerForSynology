@@ -1,4 +1,4 @@
-More Power For Synology
+# More Power For Synology
 
 > Le but de cette procédure est d'utiliser la puissance d'un autre ordinateur pour nos services à la place d'un NAS Synology n'ayant pas assez de puissance ou ne pouvant utiliser docker.
 
