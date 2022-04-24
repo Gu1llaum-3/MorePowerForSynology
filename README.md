@@ -50,3 +50,8 @@ git clone https://github.com/Gu1llaum-3/MorePowerForSynology.git
 cd MorePowerForSynology
 sudo install.sh
 ```
+
+Pour monter un nouveau volume :
+```bash
+sudo mount_nfs.sh
+```
